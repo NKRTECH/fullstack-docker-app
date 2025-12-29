@@ -1,13 +1,12 @@
 # Fullstack Docker App
 
-This is a mini project to set up a full-stack application with React frontend, Express backend, and PostgreSQL database, prepared for containerization with Docker.
+A full-stack application featuring a React frontend, Express backend, and PostgreSQL database, designed for containerization with Docker.
 
 ## Technologies
 
 - **Frontend**: React
 - **Backend**: Node.js with Express
 - **Database**: PostgreSQL
-- **Containerization**: Docker (planned)
 
 ## Project Structure
 
@@ -28,18 +27,8 @@ fullstack-docker-app/
 
 ## Backend
 
-The backend is a Node.js application using Express, connecting to PostgreSQL.
-
-- `app.js`: Main server file with API endpoint.
-- `package.json`: Dependencies and scripts.
+The backend provides an API endpoint at `/api` that queries the PostgreSQL database for the current server time.
 
 ## Frontend
 
-The frontend is a React application.
-
-- `src/App.js`: Main component fetching data from backend.
-- `package.json`: Dependencies and scripts.
-
-## Next Steps
-
-Future parts will involve Docker containerization, database setup, and deployment.
+The React app fetches and displays the message from the backend API.
